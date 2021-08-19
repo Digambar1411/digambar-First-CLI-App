@@ -23,8 +23,9 @@ function playgame(question,answer){
     console.log("Its wrong ");
   
   }
-  console.log("current score : "+score);
-  console.log("----------");   
+  console.log("current score : "+ chalk.yellow(score));
+  
+  console.log(chalk.yellow("----------"));   
   
 }
 // playgame("my age is ? ","23");
@@ -71,7 +72,8 @@ for (var i =0; i<questions.length; i++){
 
 function highscores(username,score){
 
-console.log(username+ " : " + score);
+// console.log(username+ " : " + score);
+console.log(username+ " : " + chalk.yellow(score));
  
 
   }
@@ -87,7 +89,8 @@ var userHighscores=[{
   }
 ]
 
-console.log("You scored "+score);
+// console.log("You scored "+score);
+console.log("You scored "+chalk.yellow(score));
 console.log("Check the highscores, if you have beaten the highscores, share me the sreenshot i will update"); 
 
 for (var i=0;i<userHighscores.length; i++)
