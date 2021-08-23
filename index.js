@@ -3,9 +3,9 @@ console.log("Hi This is Digambar");
 
 var chalk=require('chalk');
 
-var userName= readlineSync.question("Whats your name : ")
+var userName= readlineSync.question("Whats your name ? ")
 
-console.log("Welcome "+userName+ " to HOW MUCH YOU KNOW ABOUT DIGAMBAR !! ");
+console.log("Welcome "+userName+ " to 'How Well do you know DIGAMBAR !!' ");
 console.log("Let's play the game ");
 var score= 0;
 
