@@ -1,3 +1,3 @@
-# this is fun CLI app
+# This is fun CLI app
 
-here we play fun game about how much people know about me
+This is CLS app build in nodeJS here we play fun game about how much people know about me
